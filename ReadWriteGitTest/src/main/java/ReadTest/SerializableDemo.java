@@ -37,7 +37,7 @@ public static void main(String[] args) throws IOException, ClassNotFoundExceptio
 	System.out.println(oos);
 	oos.flush();
 	oos.close();
-	System.out.println("Success Done Done");
+	System.out.println("File Successfully Created");
 
  }
   }

@@ -34,6 +34,7 @@ public static void main(String[] args) throws IOException, ClassNotFoundExceptio
 //	System.out.println(demo1.id+" "+demo1.str);
 	
 	oos.writeObject(demo);
+
 	System.out.println(oos);
 	oos.flush();
 	oos.close();

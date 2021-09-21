@@ -34,12 +34,7 @@ public static void main(String[] args) throws IOException, ClassNotFoundExceptio
 //	System.out.println(demo1.id+" "+demo1.str);
 	
 	oos.writeObject(demo);
-	if(oos!=null)
-	{
-		System.out.println("File Created");
-	}else{
-		System.out.println("File Not Created");
-	}
+
 	System.out.println(oos);
 	oos.flush();
 	oos.close();
